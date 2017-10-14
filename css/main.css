@@ -8,30 +8,38 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-header {
-  background-color: #79756f;
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-h1 {
-  font-family: "Bevan", cursive;
-  font-size: 1.5rem;
-  color: #fff;
+header {
+  background-color: #79756f;
   display: block;
   text-align: center;
   padding: .6em;
 }
 
+h1 {
+  font-family: Bevan, serif;
+  color: #fff;
+  display: block;
+}
+
 nav li {
-  display: inline;
+  display: inline-block;
   list-style-type: none;
-  padding: .5em .75em;
+
 }
 
 nav a {
   display: inline-block;
+  padding: .5em .75em;
+  border-radius: 4px;
   color: #fff;
   background-color: #713837;
-  text-align: center;
   text-decoration: none;
 }
 
