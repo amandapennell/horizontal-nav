@@ -16,11 +16,14 @@ body {
 }
 
 h1 {
+  display: block;
+  margin: .3em;
+  padding: .6em;
   font-family: Bevan, serif;
   color: #fff;
   background-color: #79756f;
-  display: block;
-  border-top: 1px solid #595652;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
 }
 
 nav li {
@@ -30,12 +33,13 @@ nav li {
 
 nav a {
   display: inline-block;
-  margin: .3em;
+  margin: auto;
   padding: .5em .75em;
   border-radius: 4px;
   color: #fff;
   background-color: #713837;
   text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
