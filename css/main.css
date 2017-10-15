@@ -15,31 +15,46 @@ body {
   text-align: center;
 }
 
-h1 {
-  display: block;
-  margin: .3em;
-  padding: .6em;
-  font-family: Bevan, serif;
-  color: #fff;
+header {
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
+  margin: 0;
+  padding: .5em .75em;
+}
+
+h1 {
+  display: block;
+  font-family: Bevan, serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin: auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
 }
 
 nav li {
   display: inline-block;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
   display: inline-block;
-  margin: auto;
+  margin: 0;
   padding: .5em .75em;
   border-radius: 4px;
   color: #fff;
   background-color: #713837;
   text-decoration: none;
-  font-weight: bold;
 }
 
 nav a:hover {
